@@ -2,7 +2,7 @@
 # socket.io - temporary node.js v4.x package
 
 ---
-#### @jldec Sep 9.
+#### @jldec Sep 9. - warning - this package does not yet install on node v4 without errors.
 
 Because of [issue #2228](https://github.com/socketio/socket.io/issues/2228) the current socket.io release fails to build on node v4.x (and io.js v3.x), breaking npm installs.
 
