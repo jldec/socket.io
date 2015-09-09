@@ -10,7 +10,9 @@ This package provides a temporary workaround for projects which have a dependenc
 
 It was created by installing socket.io (v1.3.6) and then following the workaround first suggested by @Ramideas in [issue #2213](https://github.com/socketio/socket.io/issues/2213), and publishing the result on github.
 
-To use this package, modify your project's package.json to direct the socket.io dependency to "github:jldec/socket.io".
+To use this package, modify your project's package.json to direct the socket.io dependency to `github:jldec/socket.io`.
+
+NOTE: pointing to `github:gsklee/socket.io` should also work.
 
 This will fix your project to `npm install` this temporary package from github instead of using the official socket.io from npm.
 
