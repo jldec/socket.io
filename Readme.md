@@ -2,7 +2,7 @@
 # socket.io - temporary node.js v4.x package
 
 ---
-#### @jldec Sep 9. - warning - this package does not yet install on node v4 without errors.
+#### @jldec Sep 9. 2015
 
 Because of [issue #2228](https://github.com/socketio/socket.io/issues/2228) the current socket.io release fails to build on node v4.x (and io.js v3.x), breaking npm installs.
 
@@ -10,9 +10,11 @@ This package provides a temporary workaround for projects which have a dependenc
 
 It was created by installing socket.io (v1.3.6) and then following the workaround first suggested by @Ramideas in [issue #2213](https://github.com/socketio/socket.io/issues/2213), and publishing the result on github.
 
-To use this package, modify your project's package.json to direct the socket.io dependecy to "jldec/socket.io".
+To use this package, modify your project's package.json to direct the socket.io dependency to "github:jldec/socket.io".
 
 This will fix your project to `npm install` this temporary package from github instead of using the official socket.io from npm.
+
+Credit for this should go to [G. Kay Lee](https://github.com/gsklee).
 
 ---
 

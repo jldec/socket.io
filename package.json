@@ -19,9 +19,9 @@
     "test": "mocha --reporter dot --slow 200ms --bail"
   },
   "dependencies": {
-    "engine.io": "gsklee/engine.io#385863d",
+    "engine.io": "github:gsklee/engine.io#385863d",
     "socket.io-parser": "2.2.4",
-    "socket.io-client": "1.3.6",
+    "socket.io-client": "github:gsklee/socket.io-client#e50c1cc",
     "socket.io-adapter": "0.3.1",
     "has-binary-data": "0.1.3",
     "debug": "2.1.0"
