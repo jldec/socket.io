@@ -1,7 +1,14 @@
 
-# socket.io - temporary node.js v4.x package
+# socket.io - temporary node.js v4.x package - no longer required.
 
 ---
+#### @jldec Sep 21. 2015
+
+socket.io v1.3.7 fixes this.  
+Please point your package.json back to the official npm "socket.io".
+
+---
+
 #### @jldec Sep 9. 2015
 
 Because of [issue #2228](https://github.com/socketio/socket.io/issues/2228) the current socket.io release fails to build on node v4.x (and io.js v3.x), breaking npm installs.
